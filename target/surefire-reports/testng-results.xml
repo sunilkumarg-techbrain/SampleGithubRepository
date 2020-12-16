@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sample Sel Maven Jenkins TS" duration-ms="15654" started-at="2020-10-21T06:15:39Z" finished-at="2020-10-21T06:15:55Z">
+    <groups>
+    </groups>
+    <test name="Sample Selenium Maven Jenkins Test Suite - Thread 2" duration-ms="15626" started-at="2020-10-21T06:15:39Z" finished-at="2020-10-21T06:15:55Z">
+      <class name="com.selenium.SampleSelenium.SampleSelGoogleTest2">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.selenium.SampleSelenium.SampleSelGoogleTest2@1176dcec]" name="setup" is-config="true" duration-ms="10043" started-at="2020-10-21T11:45:39Z" finished-at="2020-10-21T11:45:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="sampleSelGoogleTest2()[pri:0, instance:com.selenium.SampleSelenium.SampleSelGoogleTest2@1176dcec]" name="sampleSelGoogleTest2" duration-ms="3782" started-at="2020-10-21T11:45:49Z" finished-at="2020-10-21T11:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleSelGoogleTest2 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.selenium.SampleSelenium.SampleSelGoogleTest2@1176dcec]" name="afterTest" is-config="true" duration-ms="1484" started-at="2020-10-21T11:45:53Z" finished-at="2020-10-21T11:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.selenium.SampleSelenium.SampleSelGoogleTest2 -->
+    </test> <!-- Sample Selenium Maven Jenkins Test Suite - Thread 2 -->
+    <test name="Sample Selenium Maven Jenkins Test Suite - Thread 1" duration-ms="15654" started-at="2020-10-21T06:15:39Z" finished-at="2020-10-21T06:15:55Z">
+      <class name="com.selenium.SampleSelenium.SampleSelGoogleTest1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.selenium.SampleSelenium.SampleSelGoogleTest1@7181ae3f]" name="setup" is-config="true" duration-ms="10005" started-at="2020-10-21T11:45:39Z" finished-at="2020-10-21T11:45:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="sampleSelGoogleTest1()[pri:0, instance:com.selenium.SampleSelenium.SampleSelGoogleTest1@7181ae3f]" name="sampleSelGoogleTest1" duration-ms="4048" started-at="2020-10-21T11:45:49Z" finished-at="2020-10-21T11:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleSelGoogleTest1 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.selenium.SampleSelenium.SampleSelGoogleTest1@7181ae3f]" name="afterTest" is-config="true" duration-ms="1512" started-at="2020-10-21T11:45:53Z" finished-at="2020-10-21T11:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.selenium.SampleSelenium.SampleSelGoogleTest1 -->
+    </test> <!-- Sample Selenium Maven Jenkins Test Suite - Thread 1 -->
+  </suite> <!-- Sample Sel Maven Jenkins TS -->
+</testng-results>
